@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(120, 120, 122);
+}
+
+#resumeImg{
+    display: flex;
+    flex-direction: column;
+    margin: 0 22% 0 25%;
+   width: 100vh; 
+   height: 100%;
+   border: 15px solid rgb(199, 199, 199);
+}
+
+#resumeToHome{
+position: absolute;
+left: 3%;
+top: 5%;
+}

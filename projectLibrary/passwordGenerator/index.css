@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 550px;
+    height: 550px;
+    left: 62px;
+    top: 64px;
+    background: #1F2937;
+}
+
+#githubIcon{
+    position: absolute;
+    top: 24%;
+    left: 28.3%;
+    color: white;
+    transition: 1.2s ease-in-out;
+}
+
+#githubIcon:hover{
+    transform: scale(1.3) rotate(360deg);
+}
+
+#Header{
+ display: flex;
+ flex-direction: column;
+
+ font-family: Karla;
+ letter-spacing: -0.025em;
+ font-size: 25px;
+ line-height: 30px;
+
+}
+
+#header--topLine{
+    margin-left: 30px;
+    color: white;
+    width: 300px;
+}
+#header--botLine{
+    color: #34D399;
+    margin: -20px 0px 0px 30px;
+}
+p{
+    color:antiquewhite;
+    font-size: 16px;
+    margin: 30px 0px -15px 32.2px;
+}
+
+#genPasswordBtn{
+    margin-top: 60%;
+    margin-left: -292px;
+    height: 42px;
+    width: 800px;
+    border-radius: 6px;
+    background: #10B981;
+    border:none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    color: white;
+}
+
+#btnImg{
+    height: 16px;
+    width: 14px;
+}
+
+#lineBreak{
+    display: flex;
+    margin: -20px 0px 0px 52px;
+    height: 0px;
+    width: 431px;
+   
+}
+
+.password{
+    height: 39px;
+    width: 333px;
+    border-radius: 6px;
+    background: black;
+    display: flex;
+    /* margin: 35px 24px 0px 52px; */
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer{
+    display: flex;
+    margin: 35px 24px 0px 52px;
+    grid-gap: 20px;
+    i dont know why this fixed my spacing help haha
+    justify-content:space-between;
+     flex-wrap: wrap; 
+}
+
+#homeIcon{
+display: flex;
+justify-content: flex-end;
+color:azure;
+padding: 5px 0px 25px 25px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 265px;
+    z-index: 1;
+    width: 720px;
+    height: 520px;
+ 
+}
+
+.glass{
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(1.5rem);
+    -webkit-backdrop-filter: blur(1.5rem);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.37);
+}
+
+#characterAmountRange{
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    margin: 0;
+    padding-left: 10px;
+    width: 200px;
+}
+
+#characterRange{
+    margin: 70px 0 0 35px;
+    color: white;
+}
+
+#characterAmountNumber{
+    margin-top: 10px;
+}

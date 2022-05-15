@@ -1,0 +1,185 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #1F2937;
+    font-family: 'Inter', sans-serif;
+    min-width: 550px;
+    max-width: 550px;
+}
+#githubIcon{
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 25px;
+    transition: 1.2s ease-in-out;
+    color: white;
+}
+
+#githubIcon:hover{
+    transform: scale(1.6);
+}
+#homeIcon{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.glass{
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(1.5rem);
+    -webkit-backdrop-filter: blur(1.5rem);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.37);
+    height: 690px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+    margin-top: -35px;
+}
+.headerContainer{
+    width: 550px;
+    height: 120px;
+    background: #3A69D2;
+    border-radius: 8px;
+}
+.headerTitle{
+    margin-bottom: -5px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+}
+.headerSubtext{
+    color: #FFFF;
+    text-align: center;
+    font-size: 14px;
+}
+.buttonContainer{
+    width: 520px;
+    height: 120px;
+    margin: 50px 22px 0px 30px
+}
+.button{
+    margin-right: 10px;
+    margin-left: 6px;
+    height: 45px;
+    background: #D1D4F4;
+    border: 1px solid #D5D4D8;
+    border-radius: 7px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4A4E74;
+}
+.task{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    float: left;
+    margin-top: -50px;
+    margin-left: 36px;
+    color: #D5D4D8;
+}
+.total{
+    font-weight: 700;
+    font-size: 12px;
+    float: right;
+    margin-top: -42.2px;
+    margin-right: 40px;
+    color: #D5D4D8;
+    
+}
+.lineBreak{
+    margin: 50px 30px 0px 37px; 
+    width: 471px;
+    height: 0px;
+    border: 1px solid #C3C6DB;
+}
+.notes{
+    width: 105px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    margin-left: 36px;
+    color: #D5D4D8;
+}
+.notesInput{
+    margin-left: 35px;
+    background: none;
+   border-radius: 5px;
+    color: #D5D4D8;
+}
+.totalAmount{  
+    width: 105px;
+    height: 28px;
+    float: right;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    color: #D5D4D8;
+    margin-top: -40px;
+    margin-right: 31px;
+}
+.displayTotal{
+    width: 105px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: right;
+    color: #F5F5F5;
+    display: flex;
+    float: right;
+    margin-right: 38px;
+}
+#sendInvoice{
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    margin: 75px 20px 0px 38px;
+    width: 473px;
+    height: 44px;
+    background: #3A69D2;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.emailIcon{
+    padding-right: 14px;
+}
+.hidden {
+    display: none;
+}
+.task-remove {
+    font-weight: lighter;
+    font-size: 8px;
+    color: #D5D4D8;
+    margin: 0 20px
+}
+.task-description {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    color: #F5F5F5;
+    margin-left: 36px;
+    margin-bottom: 20px;   
+}
+.task-amount{
+    display: flex;
+    float: right;
+    font-weight: 700;
+    float: right;
+    margin-right: 40px;
+    color: #D5D4D8;
+    margin-top: -37.4px;
+}
