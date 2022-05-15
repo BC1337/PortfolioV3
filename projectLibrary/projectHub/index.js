@@ -1,6 +1,6 @@
 // adding ability to actually use the home button
 document.getElementById('homeIcon').onclick = function () {
-    location.href = "../../index.html"
+    location.href = "../../docs/index.html"
 }
 
 let github = document.querySelector('.gitHubSubText')

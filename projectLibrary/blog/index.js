@@ -2,7 +2,7 @@ let homeBtn = document.querySelector('#blogToHome')
 let gitHub = document.querySelector('#githubIcon')
 
 homeBtn.addEventListener('click', () => {
-    return  location.href = "../../index.html"
+    return  location.href = "../../docs/index.html"
 })
 
 gitHub.addEventListener('click', () => {
