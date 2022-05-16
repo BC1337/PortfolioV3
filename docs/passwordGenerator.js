@@ -1,6 +1,6 @@
 // adding ability to actually use the home button
 document.getElementById('homeIcon').onclick = function () {
-    location.href = "../projectHub/index.html"
+    location.href = "projectHub.html"
 }
 
 // variables
