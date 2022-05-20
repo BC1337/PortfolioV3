@@ -1,5 +1,6 @@
 let homeBtn = document.querySelector('#blogToHome')
 let gitHub = document.querySelector('#githubIcon')
+let aboutMe = document.querySelector('#blogToAbout')
 
 homeBtn.addEventListener('click', () => {
     return  location.href = "index.html"
@@ -9,6 +10,9 @@ gitHub.addEventListener('click', () => {
     return location.href = "https://github.com/BC1337"
 })
 
+aboutMe.addEventListener('click', () => {
+  return  location.href = "resume.html"
+})
 
 let getInTouch = document.querySelector('#contactBtn')
 let formBox = document.querySelector('#form')

@@ -35,6 +35,7 @@ body{
     margin-top: 100px;
     margin-bottom: -117px;
     min-width: 420px;
+    padding-left: 75px;
     font-family:monospace;
     font-size: 14px;
 }
@@ -55,7 +56,7 @@ body{
     border-radius: 180px;
     position: absolute;
     top: 7%;
-    left: 7%;
+    left: 10%;
 }
 
 #selfBlurb{
@@ -102,7 +103,7 @@ body{
     float: right;
     justify-content: center;
     margin-top: 7px;
-    margin-right: 25px;
+    margin-right: 49px;
     cursor: pointer;
 }
 
@@ -111,7 +112,7 @@ body{
     float: right;
     justify-content: center;
     margin-top: 7px;
-    margin-right: 65px;
+    margin-right: 95px;
     cursor: pointer;
 }
 
@@ -120,7 +121,7 @@ body{
     float: right;
     justify-content: center;
     margin-top: 7px;
-    margin-right: 62px;
+    margin-right: 92px;
     cursor: pointer;
 }
 
