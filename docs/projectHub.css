@@ -22,9 +22,9 @@ body{
 .mainContent{
     color: white;
     display: flex;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     flex-direction: column;
-    margin-top: 75px;
+
 }
 
 .codingHeader{
@@ -42,9 +42,10 @@ text-decoration: underline;
     display: flex;
     justify-content: center;
     font-size: 17px;
+    padding: 0 1rem 0 2rem;
     font-weight: lighter;
     color: rgb(94, 255, 0);
-
+    text-align: center;
 }
 
 .wrapper{
@@ -59,7 +60,7 @@ text-decoration: underline;
     display: flex;
     justify-content: center;
     margin-top: 25px;
-    padding: 0 50px;
+    /* padding: 0 50px; */
    text-align: center;
   
 }
@@ -80,6 +81,8 @@ text-decoration: underline;
     display: flex;
     justify-content: center;
     font-size: 17px;
+    padding: 0 1rem 0 2rem;
+    text-align: center;
 }
 
 .listOfProjects{
@@ -149,6 +152,7 @@ a{
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 10px;
+    margin-bottom: 50px;
     text-shadow: 5px 3px 16px rgb(125, 176, 206);
     cursor: pointer;
 }
