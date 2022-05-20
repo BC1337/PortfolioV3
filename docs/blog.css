@@ -49,6 +49,15 @@ body{
     position: fixed;
 }
 
+#profilePic{
+    height: 225px;
+    width: 225px;
+    border-radius: 180px;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+}
+
 #selfBlurb{
     display: flex;
     justify-content: center;
