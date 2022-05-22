@@ -75,9 +75,9 @@ body{
     font-size: 14px;
     padding-right: 35px;
     margin-top: 7px;
-    color: green;
+    color: black;
     cursor: pointer;
-    
+    letter-spacing: 0.04em;
 }
 
 .linebreak{
@@ -105,7 +105,7 @@ body{
     float: right;
     justify-content: center;
     margin-top: 7px;
-    margin-right: 49px;
+    margin-right: 4rem;
     cursor: pointer;
 }
 
@@ -114,7 +114,7 @@ body{
     float: right;
     justify-content: center;
     margin-top: 7px;
-    margin-right: 95px;
+    margin-right: 6rem;
     cursor: pointer;
 }
 
@@ -123,7 +123,7 @@ body{
     float: right;
     justify-content: center;
     margin-top: 7px;
-    margin-right: 92px;
+    margin-right: 6rem;
     cursor: pointer;
 }
 
