@@ -15,7 +15,7 @@ body{
     border: 1px solid rgb(216, 231, 225);
     background: rgba(117, 251, 251, 0.082);
     margin-left: 250px;
-    padding-left: 50px;
+    padding-left: 150px;
  
 }
 
@@ -73,9 +73,11 @@ body{
     justify-content: center;
     text-decoration: underline;
     font-size: 14px;
-    margin-right: 23px;
     padding-right: 35px;
-    margin-top: 5px;
+    margin-top: 7px;
+    color: green;
+    cursor: pointer;
+    
 }
 
 .linebreak{
