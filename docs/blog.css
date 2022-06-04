@@ -211,14 +211,15 @@ body{
 /* iconAnimations */
 
 .wrapper{
-    margin-top: 240px;
+    margin-top: 25vh;
+  
 }
 
 .mainContent{
     height: 100%;
     width: 100%;
     display: flex;
-    margin-left: -50px;
+    margin-left: -10%;
     margin-bottom: 18px;
 }
 
