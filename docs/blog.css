@@ -12,9 +12,10 @@
 }
 .item2 { 
   grid-area: menu; 
-  height: 100vh;
+  /* height: 100vh; */
   width: 35vh;
-
+  /* min-height: 105vh; */
+  overflow: hidden;
 }
 
 .item3 { 
@@ -357,8 +358,20 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
   }
 }
 
-@media (max-height: 835px) {
+@media (max-height: 838px) {
+  #blogToHome, #blogToBlog, #blogToAbout, #homeIcon, #contactBtn {
+      display: none;
+  }
+}
+
+@media (max-height: 667px) {
   #contactBtn {
-      margin-top: -10px;
+      display: none;
+  }
+}
+
+@media (max-height: 555px) {
+  .item2 {
+      display: none;
   }
 }
