@@ -13,7 +13,7 @@
 .item2 { 
   grid-area: menu; 
   height: 100vh;
-  width: 40vh;
+  width: 35vh;
 
 }
 
@@ -22,6 +22,7 @@
   height: 17vh;
   min-height: 175px;
   overflow: hidden;
+  min-width: 485px;
 }
 .item4{
   grid-area: main1; 
@@ -75,7 +76,7 @@
   justify-content: center;
   margin: 2% 0 1% 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 58px;
+  font-size: 50px;
   color: rgb(255, 255, 255);
   
 }
@@ -88,8 +89,8 @@
   font-family:monospace;
   font-size: 14px;
   color: black;
-  border: 1px solid black;
-  margin: 0 375px;
+
+
 }
 
 #cardPicture{
@@ -108,10 +109,10 @@
   margin-right: 19vh;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 26px;
-  margin-top: 25px;
+  margin-top: 15px;
   text-decoration: underline;
   margin-bottom: 2%;
-  min-width: 240px;
+  min-width: 340px;
   color: rgb(212, 255, 0);
 }
 
@@ -120,17 +121,9 @@
   justify-content: center;
   font-family:monospace;
   font-size: 14px;
-  letter-spacing: .02rem;
+  line-height: 1.2rem;
   color: black;
-}
-
-
-
-/* mediua queries */
-@media (max-width: 768px) {
-  .item2 {
-      display: none;
-  }
+  padding: 0 75px 0 35px;
 }
 
 /* sidebar */
@@ -191,24 +184,15 @@
  cursor: pointer;
 }
 
+#homeIcon{
+  margin-left: 16px;
+}
+
 .sideBarButton{
   height: 55px;
   overflow: hidden;
   font-size: 20px;
 }
-
-/* #homeIcon{
-  margin-left: 50px;
-}
-
-#blogIcon{
-  margin-left: 49px;
-}
-
-#aboutIcon{
-  margin-left: 49px;
-} */
-
 
 #blogToHome{
   display: flex;
@@ -247,13 +231,6 @@
   color: rgb(252, 243, 73);
   cursor: pointer;
   margin: 20px 0  0 -5vh;
-}
-
-/* mediua queries */
-@media (max-height: 835px) {
-  #contactBtn {
-      margin-top: -10px;
-  }
 }
 
 form{
@@ -348,6 +325,8 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
   background: rgba(149, 149, 149, 0.75);
 }
 
+/* form specific media queries */
+
 @media (max-width 480px) {
   form .half{
       flex-direction: column;
@@ -365,3 +344,21 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
   }
 }
 
+/*  other mediua queries */
+@media (max-width: 875px) {
+  .item2 {
+      display: none;
+  }
+}
+
+@media (max-width: 875px) {
+  .cardTitle {
+      margin: -35px 0 0 25px ;
+  }
+}
+
+@media (max-height: 835px) {
+  #contactBtn {
+      margin-top: -10px;
+  }
+}
