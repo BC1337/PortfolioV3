@@ -1,24 +1,202 @@
+/* general */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace;
 }
 
 body{
-    background: rgb(120, 120, 122);
+    background: rgb(253, 253, 253);
+}
+.myPic{
+    height: 18vh;
+    border-radius: 360px;
+    float: right;
+    margin-right: 17%;
+    margin-top: -8.1%;
+}
+.container{
+    border: 1px solid rgb(3, 3, 3);
+    height: 97vh;
+    width: 90vh;
+    margin-top: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+/* header */
+.header-Background{
+    height: 20vh;
+    background: rgb(189, 189, 189);
+    margin: 10px 0 0 0;
+    opacity: 0.7;
+    color: black;
+    font-family: monospace;
 }
 
-#resumeImg{
+.header-Title{
+    font-size: 2rem;
+    margin-left: 10%;
+    padding-top: 6%;
+    letter-spacing: 5px;
+}
+
+.header-SubTitle{
+    margin-left: 10%;
+    font-weight: 550;
+    letter-spacing: 5px;
+}
+
+.general-Info{
+    border: 1px solid black;
+    width: 42%;
+    margin-top: 5%;
+    margin-left: 5%;
+   padding-left: 2%;
+   padding-right: 2%;
+    font-size: 13px;
+}
+
+.skills-Container{
+float: right;
+margin-right: 10%;
+margin-bottom: -32%;
+border: 1px solid black;
+padding-left: 2%;
+padding-right: 2%;
+}
+
+.skills-List{
+    line-height: 3vh;
+}
+
+
+.profile-container{
     display: flex;
-    flex-direction: column;
-    margin: 0 22% 0 25%;
-   width: 100vh; 
-   height: 100%;
-   border: 15px solid rgb(199, 199, 199);
+    width: 50%;
+    float: right;
+    margin-top: -15.1vh;
+    margin-left: 15%;
+    margin-bottom:10vh;
+   
 }
 
-#resumeToHome{
-position: absolute;
-left: 3%;
-top: 5%;
+.profile-text{
+    font-size: 5px;
 }
+
+.profile-Title{
+    text-decoration: underline;
+}
+
+.experience-Container{
+display: flex;
+width: 60%;
+padding-left: 5%;
+flex-direction: column;
+}
+
+.experience-Title{
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+
+.experience-SubTitle, .date, .jobName{
+    font-family: monospace;
+    font-size: 12px;
+    margin-top: -4px;
+}
+.date{
+    margin-bottom: 3%;
+}
+
+.experience-List{
+    margin-left: 2px;
+    font-size: 13px;
+    margin-bottom: 3%;
+   
+    line-height: 2vh;
+}
+
+.experience-List2{
+    width: 400px;
+    font-size: 13px;
+
+}
+
+.profile-text{
+    margin: 30px 0 0 -25%;
+    width: 600px;
+    font-size: 14px;
+}
+
+
+
+
+/* Other  */
+@media (max-width: 571px) {
+    .general-Info {
+       font-size: 12px;
+    }
+  }
+
+
+@media (max-width: 575px) {
+    .container {
+       width: 500px;
+    }
+  }
+
+  @media (max-width: 766px) {
+    .myPic{
+       margin: -15% 2% 0 0;
+    }
+  }
+
+
+  @media (max-width: 766px) {
+    .general-Info {
+       margin: 4% 0 0 1%;
+    }
+  }
+
+  @media (max-width: 766px) {
+    .profile-text {
+       margin-left: -35%;
+    }
+  }
+
+  @media (max-width: 766px) {
+    .skills-Container {
+       margin-left: 25vh;
+       margin-right: 1vh;
+       margin-bottom: -40vh;
+    }
+  }
+
+  @media (max-width: 766px) {
+    .profile-text {
+       margin-bottom: -5.5vh;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .experience-Container{
+      width: 50%;
+      line-height: 3vh;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
